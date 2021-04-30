@@ -155,7 +155,52 @@
             font-size: 20px;
             color:#2bb9d8;
         }
+        header .logo{
+            position: relative;
+            font-weight: 700;
+            color: #2bb9d8;
+            text-decoration: none;
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.6s;
+            
+        } 
+        header{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 100px;
+            z-index: 10000;
+            transition: 0.6s;
+        }
+        @media (max-width:767px){
+            .max-width{
+        padding: 0 50px;
+    }
+    .max-width{
+        max-width: 800px;
+    }
+    .contact .contact-content .column{
+        width:100% ;
+        margin-bottom: 35px;
+    }
+    header .logo{
+        position:absolute;
+        top: 10%;
+        left: 30%;
+    }
+        }
     </style>
+</head>
+    <body>
+     <header>
+        <a href="port2.html" class="logo">Melissa_OFN</a>
+        
+    </header>
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact</h2>
@@ -215,3 +260,5 @@
             </div>
         </div>
     </section>
+</body>
+</html>
